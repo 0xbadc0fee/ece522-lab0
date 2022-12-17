@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Nov 27 00:34:27 2022
+# Process ID: 30085
+# Current directory: /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO
+# Command line: wbtcv -mode batch -source /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/HISTO.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/webtalk.log
+# Journal file: /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/webtalk.jou
+#-----------------------------------------------------------
+source /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/HISTO.hw/webtalk/labtool_webtalk.tcl -notrace

@@ -1,0 +1,6 @@
+/*lab0_10*/
+the_ROM_image:
+{
+  [bootloader]<lab0_10/boot/fsbl.elf>
+   <bitstream> 
+}

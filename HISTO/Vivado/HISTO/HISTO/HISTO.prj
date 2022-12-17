@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="HISTO" location="/home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/HISTO" platform="/home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/lab0_10/export/lab0_10/lab0_10.xpfm" platformUID="xilinx:zybo-z7-10::0.0(custom)" systemProject="HISTO_system" sysConfig="lab0_10" runtime="C/C++" cpu="linux_domain" cpuInstance="cortex-a9" os="linux">
+  <configuration name="Debug" id="xilinx.gnu.armv7.linux.exe.debug.439293932">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.linux.exe.release.788464430" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="linux_empty_app"/>
+</sdkproject:SdkProject>

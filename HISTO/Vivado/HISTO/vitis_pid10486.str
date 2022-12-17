@@ -1,0 +1,133 @@
+/*
+
+Xilinx Vitis v2020.2.0 (64-bit) [Major: 2020, Minor: 2]
+SW Build 3064172 on 2020-11-18-06:24:19
+
+Process ID (PID): 10486
+License: Customer
+
+Current time: 	Sat Nov 26 21:27:20 PST 2022
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Ubuntu
+OS Version: 5.15.0-53-generic
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: :0
+Screen size: 1920x1080
+Available screens: 1
+Available disk space: 98 GB
+
+Java version: 	11.0.2 64-bit
+Java home: 	/tools/Xilinx/Vitis/2020.2/tps/lnx64/jre11.0.2
+Java executable location: 	/tools/Xilinx/Vitis/2020.2/tps/lnx64/jre11.0.2/bin/java
+Java initial memory (-Xms): 	64 MB
+Java maximum memory (-Xmx):	 1,024 MB
+
+Java library paths: /tools/Xilinx/Vitis/2020.2/tps/lnx64/javafx-sdk-11.0.2/lib:/tools/Xilinx/Vitis/2020.2/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vitis/2020.2/lib/lnx64.o:/tools/Xilinx/Vitis/2020.2/tps/lnx64/jre11.0.2/lib/:/tools/Xilinx/Vitis/2020.2/tps/lnx64/jre11.0.2/lib//server:/tools/Xilinx/Vitis/2020.2/lib/lnx64.o:/tools/Xilinx/Vitis/2020.2/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vitis/2020.2/lib/lnx64.o:/tools/Xilinx/Vitis/2020.2/tps/lnx64/python-3.8.3/lib:/tools/Xilinx/Vivado/2020.2/bin/../lnx64/tools/dot/lib:/tools/Xilinx/Vitis/2020.2/bin/../lnx64/tools/dot/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+
+Java class paths: /tools/Xilinx/Vitis/2020.2/eclipse/lnx64.o//plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar
+LD_LIBRARY_PATH: /tools/Xilinx/Vitis
+
+User name: 	sgc
+User home directory: /home/sgc
+User working directory: /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/Vitis
+HDI_APPROOT: /tools/Xilinx/Vitis/2020.2
+RDI_DATADIR: /tools/Xilinx/Vitis/2020.2/data
+RDI_BINDIR: /tools/Xilinx/Vitis/2020.2/bin
+
+Vitis preferences directory: /home/sgc/.Xilinx/Vitis/2020.2/
+Vitis workspace directory: /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO
+Vitis workspace log file location: /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/.metadata/.log
+Engine tmp dir: 	
+
+Xilinx Environment Variables
+----------------------------
+XILINX_DSP: 
+XILINX_HLS: /tools/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: /tools/Xilinx/Vitis/2020.2
+XILINX_SDK: /tools/Xilinx/Vitis/2020.2
+XILINX_VITIS: /tools/Xilinx/Vitis/2020.2
+XILINX_VIVADO: /tools/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2020.2
+_RDI_DONT_SET_XILINX_AS_PATH: True
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+selectMenuItem("File", "WorkbenchWindow", "MenuItem.FILE");
+selectMenuItem("Open File", "WorkbenchWindow", "MenuItem.OPEN_FILE");
+setTextField("lab0_10", "New Platform Project (Create new platform project)", "NewPlatformProjectWizard", "Text.PLATFORM_PROJECT_NAME");
+selectButton("Next", "New Platform Project (Create new platform project)", "NewPlatformProjectWizard", "Button.NEXT");
+selectButton("Browse", "New Platform Project (Platform)", "NewPlatformProjectWizard", "Button.BROWSE");
+setFileDialog("/home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/design_1_wrapper.xsa", "Create Platform from XSA", "SDXFileDialog", "Button.OK");
+selectCombo("linux", "New Platform Project (Platform)", "NewPlatformProjectWizard", "Combo.OPERATING_SYSTEM");
+selectButton("Finish", "New Platform Project (Platform)", "NewPlatformProjectWizard", "Button.FINISH");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("lab0_10", "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Project", "lab0_10", "WorkbenchWindow", "MenuItem.PROJECT");
+selectMenuItem("Build Project", "lab0_10", "WorkbenchWindow", "MenuItem.BUILD_PROJECT");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("lab0_10", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("New", "Explorer", "ProjectExplorer", "MenuItem.NEW");
+selectMenuItem("Application Project", "lab0_10", "WorkbenchWindow", "MenuItem.APPLICATION_PROJECT");
+selectButton("Next", "New Application Project (Create a New Application Project)", "NewAppProjectWizard", "Button.NEXT");
+selectTreeTable("lab0_10", "New Application Project (Platform)", "NewAppProjectWizard", "TreeViewer.ArrayTreeContentProvider");
+selectButton("Next", "New Application Project (Platform)", "NewAppProjectWizard", "Button.NEXT");
+setTextField("HISTO", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Text.APPLICATION_PROJECT_NAME");
+selectButton("Next", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Button.NEXT");
+selectButton("Next", "New Application Project (Domain)", "NewAppProjectWizard", "Button.NEXT");
+selectTreeTable("Linux Empty Application", "SW development templates", "New Application Project (Templates)", "NewAppProjectWizard", "TreeViewer.TemplateContentProvider");
+selectButton("Back", "New Application Project (Templates)", "NewAppProjectWizard", "Button.BACK");
+selectButton("Back", "New Application Project (Domain)", "NewAppProjectWizard", "Button.BACK");
+selectButton("Back", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Button.BACK");
+selectButton("Next", "New Application Project (Platform)", "NewAppProjectWizard", "Button.NEXT");
+selectButton("Next", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Button.NEXT");
+selectButton("Next", "New Application Project (Domain)", "NewAppProjectWizard", "Button.NEXT");
+selectTreeTable("Linux Empty Application", "SW development templates", "New Application Project (Templates)", "NewAppProjectWizard", "TreeViewer.TemplateContentProvider");
+selectButton("Finish", "New Application Project (Templates)", "NewAppProjectWizard", "Button.FINISH");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("HISTO_system", "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Project", "HISTO_system", "WorkbenchWindow", "MenuItem.PROJECT");
+selectMenuItem("Build Project", "HISTO_system", "WorkbenchWindow", "MenuItem.BUILD_PROJECT");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("HISTO_system", "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectTreeTable("lab0_10", "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectTreeTable("HISTO_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Import Sources", "Explorer", "ProjectExplorer", "MenuItem.IMPORT_SOURCES");
+selectButton("Browse", "Import Sources (File system)", "FileSystemImportWizard", "Button.BROWSE");
+selectTree("C_code", "Import Sources (File system)", "FileSystemImportWizard", "Tree.C_CODE");
+selectTable("Histo.c", "Import Sources (File system)", "FileSystemImportWizard", "Table");
+selectTable("common.h", "Import Sources (File system)", "FileSystemImportWizard", "Table");
+selectButton("Advanced", "Import Sources (File system)", "FileSystemImportWizard", "Button.ADVANCED");
+selectCheckBox("Create links in workspace", Boolean.TRUE, "Import Sources (File system)", "FileSystemImportWizard", "Button.CREATE_LINKS_IN");
+selectButton("Browse", "Import Sources (File system)", "FileSystemImportWizard", "Button.BROWSE");
+selectTree("HISTO_system", "Import into Folder", "ContainerSelectionDialog", "Tree.Workspace");
+selectButton("OK", "Import into Folder", "ContainerSelectionDialog", "Button.OK");
+selectButton("Browse", "Import Sources (File system)", "FileSystemImportWizard", "Button.BROWSE");
+selectTree("src", "HISTO", "Import into Folder", "ContainerSelectionDialog", "Tree.Workspace");
+selectButton("OK", "Import into Folder", "ContainerSelectionDialog", "Button.OK");
+selectButton("Finish", "Import Sources (File system)", "FileSystemImportWizard", "Button.FINISH");
+selectMenuItem("Project", "HISTO_system", "WorkbenchWindow", "MenuItem.PROJECT");
+selectMenuItem("Build Project", "HISTO_system", "WorkbenchWindow", "MenuItem.BUILD_PROJECT");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectMenuItem("Xilinx", "HISTO", "WorkbenchWindow", "MenuItem.XILINX");
+selectMenuItem("XSCT Console", "HISTO", "WorkbenchWindow", "MenuItem.XSCT_CONSOLE");
+activateView("XSCT Console", "XSDBConsoleView", "CTabItem.XSCT_CONSOLE");
+selectTreeTable("HISTO.elf -", "HISTO_system > HISTO > Binaries", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Properties", "Explorer", "ProjectExplorer", "MenuItem.PROPERTIES");
+selectButton("Cancel", "Properties for HISTO.elf -", "PropertyDialog", "Button.CANCEL");
+selectMenuItem("File", "HISTO", "WorkbenchWindow", "MenuItem.FILE");
+selectMenuItem("Close All", "HISTO", "WorkbenchWindow", "MenuItem.CLOSE_ALL");
+selectButton("Exit", "Confirm Exit", "MessageDialogWithToggle", "Button.EXIT");
+// Exiting Xilinx Vitis with a status code '0' at 11/27/22, 12:34:37 AM PST
+// Elapsed time: 03:07:16
+

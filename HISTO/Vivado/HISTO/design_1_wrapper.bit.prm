@@ -1,0 +1,14 @@
+===================================
+Configuration Memory information
+===================================
+File Format        BIN
+Interface          SMAPX32
+Size               256M
+Start Address      0x00000000
+End Address        0x0FFFFFFF
+Checksum           0xD0776D7C
+Fill Value         0xFF
+
+Addr1         Addr2         Date                    File(s)                                                                                      Checksum
+0x00000000    0x001FCB9B    Nov 26 20:44:47 2022    /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/HISTO.runs/impl_1/design_1_wrapper.bit    0x00233DE0
+File Checksum Total                                                                                                                              0x00233DE0

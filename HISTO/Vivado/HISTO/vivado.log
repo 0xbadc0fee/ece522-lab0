@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Dec  3 14:23:05 2022
+# Process ID: 2879
+# Current directory: /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO
+# Command line: vivado
+# Log file: /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/vivado.log
+# Journal file: /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/HISTO.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2020.2/data/ip'.
+INFO: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:01:20 . Memory (MB): peak = 7202.367 ; gain = 50.055 ; free physical = 7364 ; free virtual = 11713
+update_compile_order -fileset sources_1
+open_bd_design {/home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/HISTO.srcs/sources_1/bd/design_1/design_1.bd}
+Reading block design file </home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/HISTO.srcs/sources_1/bd/design_1/design_1.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_50M
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - blk_mem_gen_0
+Successfully read diagram <design_1> from block design file </home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/HISTO.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:55 . Memory (MB): peak = 7392.906 ; gain = 68.480 ; free physical = 7130 ; free virtual = 11589
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Dec  3 15:11:15 2022...

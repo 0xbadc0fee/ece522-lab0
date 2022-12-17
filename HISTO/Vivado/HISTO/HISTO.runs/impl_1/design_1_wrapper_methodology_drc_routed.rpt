@@ -1,0 +1,60 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
+| Date         : Sat Nov 26 20:44:36 2022
+| Host         : ECE522 running 64-bit Ubuntu 20.04.5 LTS
+| Command      : report_methodology -file design_1_wrapper_methodology_drc_routed.rpt -pb design_1_wrapper_methodology_drc_routed.pb -rpx design_1_wrapper_methodology_drc_routed.rpx
+| Design       : design_1_wrapper
+| Device       : xc7z010clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 2
++-----------+----------+-------------------------------+------------+
+| Rule      | Severity | Description                   | Violations |
++-----------+----------+-------------------------------+------------+
+| LUTAR-1   | Warning  | LUT drives async reset alert  | 1          |
+| TIMING-18 | Warning  | Missing input or output delay | 1          |
++-----------+----------+-------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell TopMod/HistoMod/FSM_sequential_state_reg[2]_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) TopMod/ControllerMod/FSM_sequential_state_reg_reg[0]/CLR,
+TopMod/ControllerMod/FSM_sequential_state_reg_reg[1]/CLR,
+TopMod/ControllerMod/ready_reg_reg/PRE,
+TopMod/HistoMod/FSM_sequential_state_reg_reg[0]/CLR,
+TopMod/HistoMod/FSM_sequential_state_reg_reg[1]/CLR,
+TopMod/HistoMod/FSM_sequential_state_reg_reg[2]/CLR,
+TopMod/HistoMod/FSM_sequential_state_reg_reg[3]/CLR,
+TopMod/HistoMod/HISTO_ERR_reg_reg/CLR,
+TopMod/HistoMod/HV_addr_reg_reg[0]/CLR,
+TopMod/HistoMod/HV_addr_reg_reg[10]/CLR,
+TopMod/HistoMod/HV_addr_reg_reg[11]/CLR,
+TopMod/HistoMod/HV_addr_reg_reg[1]/CLR,
+TopMod/HistoMod/HV_addr_reg_reg[2]/CLR,
+TopMod/HistoMod/HV_addr_reg_reg[3]/CLR,
+TopMod/HistoMod/HV_addr_reg_reg[4]/CLR (the first 15 of 137 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An output delay is missing on DEBUG_OUT relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+

@@ -1,0 +1,4 @@
+TRACE::2022-11-26.21:31:32::SCWLinux::Copying the qemu file from  /tools/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_linux/qemu/qemu_args.txt To /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/lab0_10/export/lab0_10/sw/lab0_10/qemu/
+TRACE::2022-11-26.21:31:32::SCWLinux::Copying the qemu file from  /tools/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_linux/qemu/qemu_args.txt To /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/lab0_10/export/lab0_10/sw/lab0_10/linux_domain/qemu/
+TRACE::2022-11-26.21:31:32::SCWLinux:: Copying the user libraries. 
+TRACE::2022-11-26.21:31:32::SCWLinux::Skipping the Petalinux build as image is already given.

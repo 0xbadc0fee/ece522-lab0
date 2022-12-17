@@ -1,0 +1,281 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Nov 26 20:09:56 2022
+# Process ID: 2629
+# Current directory: /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO
+# Command line: vivado
+# Log file: /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/vivado.log
+# Journal file: /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/HISTO.xpr
+INFO: [Project 1-313] Project file moved from '/home/sgc/Documents/ECE522/lab0/gpio_bram/Vivado/GPIO_BRAM' since last save.
+INFO: [BD 41-2613] The output directory /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/GPIO_BRAM.gen/sources_1/bd/design_1 for design_1 cannot be found.
+WARNING: [Project 1-312] File not found as '/home/sgc/Documents/ECE522/lab0/HISTO/VHDL/design_1_wrapper.vhd'; using path '/home/sgc/Documents/ECE522/lab0/gpio_bram/VHDL/design_1_wrapper.vhd' instead.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-312] File not found as '/home/sgc/Documents/ECE522/lab0/HISTO/VHDL/design_1_wrapper.vhd'; using path '/home/sgc/Documents/ECE522/lab0/gpio_bram/VHDL/design_1_wrapper.vhd' instead.
+WARNING: [Project 1-312] File not found as '/home/sgc/Documents/ECE522/lab0/HISTO/VHDL/design_1_wrapper.vhd'; using path '/home/sgc/Documents/ECE522/lab0/gpio_bram/VHDL/design_1_wrapper.vhd' instead.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2020.2/data/ip'.
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.050 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.044 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.035 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.100 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.050 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.044 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.035 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.100 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.050 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.044 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.035 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.100 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.050 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.044 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.035 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.100 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.050 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.044 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.035 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.100 . PS DDR interfaces might fail when entering negative DQS skew values. 
+INFO: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:34 . Memory (MB): peak = 7234.711 ; gain = 88.211 ; free physical = 7824 ; free virtual = 11906
+update_compile_order -fileset sources_1
+update_files -from_files /home/sgc/Documents/ECE522/lab0/HISTO/VHDL/design_1_wrapper.vhd -to_files /home/sgc/Documents/ECE522/lab0/gpio_bram/VHDL/design_1_wrapper.vhd -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file '/home/sgc/Documents/ECE522/lab0/gpio_bram/VHDL/design_1_wrapper.vhd' with file '/home/sgc/Documents/ECE522/lab0/HISTO/VHDL/design_1_wrapper.vhd'.
+add_files -norecurse {/home/sgc/Documents/ECE522/lab0/HISTO/VHDL/Histo.vhd /home/sgc/Documents/ECE522/lab0/HISTO/VHDL/Controller.vhd}
+update_compile_order -fileset sources_1
+open_bd_design {/home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/HISTO.srcs/sources_1/bd/design_1/design_1.bd}
+Reading block design file </home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/HISTO.srcs/sources_1/bd/design_1/design_1.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.050 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.044 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.035 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.100 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.050 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.044 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.035 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.100 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.050 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.044 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.035 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.100 . PS DDR interfaces might fail when entering negative DQS skew values. 
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_50M
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - blk_mem_gen_0
+Successfully read diagram <design_1> from block design file </home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/HISTO.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 7473.008 ; gain = 125.246 ; free physical = 7621 ; free virtual = 11803
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.050 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.044 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.035 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.100 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+regenerate_bd_layout
+validate_bd_design
+save_bd_design
+Wrote  : </home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/HISTO.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : </home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/HISTO.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+close_bd_design [get_bd_designs design_1]
+reset_run synth_1
+reset_run design_1_blk_mem_gen_0_0_synth_1
+reset_run design_1_rst_ps7_0_50M_0_synth_1
+reset_run design_1_axi_gpio_0_0_synth_1
+reset_run design_1_processing_system7_0_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/GPIO_BRAM.gen/sources_1/bd/design_1/synth/design_1.vhd
+VHDL Output written to : /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/GPIO_BRAM.gen/sources_1/bd/design_1/sim/design_1.vhd
+VHDL Output written to : /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/GPIO_BRAM.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+WARNING: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_GP0'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_50M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block blk_mem_gen_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/GPIO_BRAM.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/GPIO_BRAM.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/GPIO_BRAM.gen/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/GPIO_BRAM.gen/sources_1/bd/design_1/synth/design_1.hwdef
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_auto_pc_0
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_axi_gpio_0_0
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_blk_mem_gen_0_0
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_processing_system7_0_0
+INFO: [IP_Flow 19-7066] Running IP cache check for IP design_1_rst_ps7_0_50M_0
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = 732b4674120cbad0; cache size = 2.925 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_axi_gpio_0_0, cache-ID = 7c2d7ce492f84bce; cache size = 2.925 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_blk_mem_gen_0_0, cache-ID = 91a294508629b9c9; cache size = 2.925 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_processing_system7_0_0, cache-ID = 14b8ff43b46d7252; cache size = 2.925 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_rst_ps7_0_50M_0, cache-ID = a28a6256285c13f9; cache size = 2.925 MB.
+[Sat Nov 26 20:43:03 2022] Launched synth_1...
+Run output will be captured here: /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/HISTO.runs/synth_1/runme.log
+[Sat Nov 26 20:43:04 2022] Launched impl_1...
+Run output will be captured here: /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/HISTO.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:24 ; elapsed = 00:00:53 . Memory (MB): peak = 8726.148 ; gain = 65.707 ; free physical = 7177 ; free virtual = 11465
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 8806.824 ; gain = 0.000 ; free physical = 6925 ; free virtual = 11363
+INFO: [Netlist 29-17] Analyzing 83 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Constraints 18-5170] The checkpoint was created with non-default parameter values which do not match the current Vivado settings.  Mismatching parameters are:
+  general.maxThreads
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.16 . Memory (MB): peak = 9369.398 ; gain = 0.000 ; free physical = 6405 ; free virtual = 10843
+Restored from archive | CPU: 0.170000 secs | Memory: 2.622437 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.16 . Memory (MB): peak = 9369.398 ; gain = 0.000 ; free physical = 6405 ; free virtual = 10843
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9369.398 ; gain = 0.000 ; free physical = 6405 ; free virtual = 10843
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 9545.234 ; gain = 819.086 ; free physical = 6352 ; free virtual = 10793
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 09:50:49
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 03 2020-13:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 9545.234 ; gain = 0.000 ; free physical = 6176 ; free virtual = 10703
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210351B3FEC2A
+open_hw_target: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 10832.941 ; gain = 1287.707 ; free physical = 4763 ; free virtual = 9299
+set_property PROGRAM.FILE {/home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/HISTO.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z010_1]
+current_hw_device [get_hw_devices xc7z010_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-1435] Device xc7z010 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {/home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/HISTO.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 10858.938 ; gain = 0.000 ; free physical = 4747 ; free virtual = 9284
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+write_hw_platform -fixed -include_bit -force -file /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/design_1_wrapper.xsa
+INFO: [Vivado 12-4895] Creating Hardware Platform: /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/design_1_wrapper.xsa ...
+INFO: [Hsi 55-2053] elapsed time for repository (/tools/Xilinx/Vivado/2020.2/data/embeddedsw) loading 1 seconds
+WARNING: [Project 1-645] Board images not set in Hardware Platform.
+INFO: [Vivado 12-12467] The Hardware Platform can be used for Hardware
+INFO: [Vivado 12-4896] Successfully created Hardware Platform: /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/design_1_wrapper.xsa
+INFO: [Vivado 12-8231] Launching Vitis
+INFO: [Vivado 12-417] Running vitis
+INFO: [Vivado 12-8232] Vitis launch initiated. Please check console for any further messages.
+write_cfgmem -disablebitswap -force -format BIN -size 256 -interface SMAPx32 -checksum -loadbit "up 0x0 /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/design_1_wrapper.bit" -verbose design_1_wrapper.bit.bin
+Command: write_cfgmem -disablebitswap -force -format BIN -size 256 -interface SMAPx32 -checksum -loadbit {up 0x0 /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/design_1_wrapper.bit} -verbose design_1_wrapper.bit.bin
+Creating config memory files...
+INFO: [Writecfgmem 68-23] Start address provided has been multiplied by a factor of 4 due to the use of interface SMAPX32.
+Creating bitstream load up from address 0x00000000
+Loading bitfile /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/design_1_wrapper.bit
+Writing file ./design_1_wrapper.bit.bin
+Writing log file ./design_1_wrapper.bit.prm
+===================================
+Configuration Memory information
+===================================
+File Format        BIN
+Interface          SMAPX32
+Size               256M
+Start Address      0x00000000
+End Address        0x0FFFFFFF
+Checksum           0xD06C327D
+Fill Value         0xFF
+
+Addr1         Addr2         Date                    File(s)                                                                    Checksum
+0x00000000    0x001FCB9B    Nov 26 14:11:02 2022    /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/design_1_wrapper.bit    0x001802E1
+File Checksum Total                                                                                                            0x001802E1
+1 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_cfgmem completed successfully
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 09:50:49
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 03 2020-13:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210351B3FEC2A
+set_property PROGRAM.FILE {/home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/HISTO.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z010_1]
+current_hw_device [get_hw_devices xc7z010_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210351B3FEC2A
+write_cfgmem -disablebitswap -force -format BIN -size 256 -interface SMAPx32 -checksum -loadbit "up 0x0 /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/HISTO.runs/impl_1/design_1_wrapper.bit" -verbose design_1_wrapper.bit.bin
+Command: write_cfgmem -disablebitswap -force -format BIN -size 256 -interface SMAPx32 -checksum -loadbit {up 0x0 /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/HISTO.runs/impl_1/design_1_wrapper.bit} -verbose design_1_wrapper.bit.bin
+Creating config memory files...
+INFO: [Writecfgmem 68-23] Start address provided has been multiplied by a factor of 4 due to the use of interface SMAPX32.
+Creating bitstream load up from address 0x00000000
+Loading bitfile /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/HISTO.runs/impl_1/design_1_wrapper.bit
+Writing file ./design_1_wrapper.bit.bin
+Writing log file ./design_1_wrapper.bit.prm
+===================================
+Configuration Memory information
+===================================
+File Format        BIN
+Interface          SMAPX32
+Size               256M
+Start Address      0x00000000
+End Address        0x0FFFFFFF
+Checksum           0xD0776D7C
+Fill Value         0xFF
+
+Addr1         Addr2         Date                    File(s)                                                                                      Checksum
+0x00000000    0x001FCB9B    Nov 26 20:44:47 2022    /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/HISTO.runs/impl_1/design_1_wrapper.bit    0x00233DE0
+File Checksum Total                                                                                                                              0x00233DE0
+1 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_cfgmem completed successfully
+close_project
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source /home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/HISTO.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] '/home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/HISTO.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Sun Nov 27 00:34:29 2022. For additional details about this file, please refer to the WebTalk help file at /tools/Xilinx/Vivado/2020.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov 27 00:34:29 2022...
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 27 00:34:34 2022...

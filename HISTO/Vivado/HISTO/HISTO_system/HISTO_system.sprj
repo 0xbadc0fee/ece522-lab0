@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdsproject="http://www.xilinx.com/sdsproject" xmlns:systemproject="http://www.xilinx.com/systemproject" name="HISTO_system" platform="/home/sgc/Documents/ECE522/lab0/HISTO/Vivado/HISTO/lab0_10/export/lab0_10/lab0_10.xpfm" platformUID="xilinx:zybo-z7-10::0.0(custom)" sysConfig="lab0_10" runtime="C/C++" rootFSLocation="" linuxImage="" sysroot="">
+  <configuration name="Debug" id="com.xilinx.sdx.system.managedbuilder.debugConfiguration.1549378164">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="HISTO" domainName="linux_domain" domainPrettyName="linux on ps7_cortexa9" appBuildConfig="Debug"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="0"/>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="HISTO" domainName="linux_domain" domainPrettyName="linux on ps7_cortexa9" appBuildConfig="Debug"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="0"/>
+    </lastBuildOptions>
+  </configuration>
+  <configuration name="Release" id="com.xilinx.sdx.system.managedbuilder.releaseConfiguration.564908902">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="HISTO" domainName="linux_domain" domainPrettyName="linux on ps7_cortexa9" appBuildConfig="Release"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="0"/>
+    </configBuildOptions>
+  </configuration>
+</systemproject:SystemProject>

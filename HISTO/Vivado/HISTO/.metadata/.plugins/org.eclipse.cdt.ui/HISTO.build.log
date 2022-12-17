@@ -1,0 +1,25 @@
+21:39:29 **** Incremental Build of configuration Debug for project HISTO ****
+make all 
+Building file: /home/sgc/Documents/ECE522/lab0/HISTO/C_code/Histo.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Histo.o" -MMD -MP -MF"src/Histo.d" -MT"src/Histo.o" -o "src/Histo.o" "/home/sgc/Documents/ECE522/lab0/HISTO/C_code/Histo.c"
+/home/sgc/Documents/ECE522/lab0/HISTO/C_code/Histo.c: In function 'main':
+/home/sgc/Documents/ECE522/lab0/HISTO/C_code/Histo.c:325:48: warning: bitwise comparison always evaluates to false [-Wtautological-compare]
+  325 |    if ( ((*DataRegA) & (1 << IN_SM_HISTO_ERR)) == 1 )
+      |                                                ^~
+Finished building: /home/sgc/Documents/ECE522/lab0/HISTO/C_code/Histo.c
+ 
+Building target: HISTO.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc  -o "HISTO.elf"  ./src/Histo.o   
+Finished building target: HISTO.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size HISTO.elf  |tee "HISTO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8339	    404	      4	   8747	   222b	HISTO.elf
+Finished building: HISTO.elf.size
+ 
+
+21:39:35 Build Finished (took 6s.704ms)
+
